@@ -87,7 +87,7 @@ export default defineComponent({
             html: true
         });
         const response = await axios.get(
-          `https://104.131.72.170/api/v1/getdni?valor=${this.text}`
+          `https://www.waready.pro/api/v1/getdni?valor=${this.text}`
         );
         this.fetchDataResult = response.data;
         dismiss() // Asignar el resultado a la variable
